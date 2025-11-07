@@ -680,7 +680,7 @@ if page == "Dashboard":
         1. API key already provided 😀
         3. Upload your data (current structure accepts csv files, can be built to tap live/internal systems)
              - CRM: Salesforce, HubSpot, Dynamics (accounts, opps, pipeline, activities)
-             - Ticketing/Events (for your world): Ticketmaster/Archtics, Eventbrite, AudienceView, Tessitura; access/attendance scans.
+             - Ticketing/Events: Ticketmaster/Archtics, Eventbrite, AudienceView, Tessitura; access/attendance scans.
              - Sponsorship/Partnership: Salesforce objects, KORE/SSB, SponsorUnited exports.
              - E-commerce/POS: Shopify, Square, Lightspeed; orders, refunds, items
              - finance, marketing, product, people, etc.
