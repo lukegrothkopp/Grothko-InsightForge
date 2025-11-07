@@ -677,8 +677,7 @@ if page == "Dashboard":
         st.info("👈 Please upload a dataset and enter your OpenAI API Key to get started.")
         st.markdown("""
         ### Getting Started
-        1. Create an API key at the OpenAI Platform
-        2. Enter the API key in the sidebar
+        1. API key already provided 😀
         3. Upload your CSV file
         4. Explore AI-powered insights!
         """)
