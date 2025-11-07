@@ -678,7 +678,7 @@ if page == "Dashboard":
         st.markdown("""
         ### Getting Started
         1. API key already provided 😀
-        3. Upload your CSV file
+        3. Upload your data (current structure accepts csv files)
         4. Explore AI-powered insights!
         """)
 
