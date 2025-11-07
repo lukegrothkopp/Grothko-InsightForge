@@ -678,11 +678,11 @@ if page == "Dashboard":
         st.markdown("""
         ### Getting Started
         1. API key already provided 😀
-        3. Upload your data (current structure accepts csv files uploaded under "Data Upload" in the left navigation, can be built to tap live/internal systems)
-             - CRM: Salesforce, HubSpot, Dynamics (accounts, opps, pipeline, activities)
-             - Ticketing/Events: Ticketmaster/Archtics, Eventbrite, AudienceView, Tessitura; access/attendance scans.
-             - Sponsorship/Partnership: Salesforce objects, KORE/SSB, SponsorUnited exports.
-             - E-commerce/POS: Shopify, Square, Lightspeed; orders, refunds, items
+        3. Upload your data (current structure accepts **CSV** files uploaded under **"Data Upload"** in the left navigation, can be built to tap live/internal systems)
+             - **CRM:** Salesforce, HubSpot, Dynamics (accounts, opps, pipeline, activities)
+             - **Ticketing/Events:** Ticketmaster/Archtics, Eventbrite, AudienceView, Tessitura; access/attendance scans.
+             - **Sponsorship/Partnership:** Salesforce objects, KORE/SSB, SponsorUnited exports.
+             - **E-commerce/POS:** Shopify, Square, Lightspeed; orders, refunds, items
              - finance, marketing, product, people, etc.
         4. Explore AI-powered insights!
         """)
