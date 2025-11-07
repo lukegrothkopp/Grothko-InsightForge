@@ -614,12 +614,6 @@ with st.sidebar:
     # API Key input (prefer secrets)
     st.subheader("🗝️ API Configuration")
     
-    # --- Navigation ---
-    pages = ["Dashboard", "Data Analysis", "AI Assistant", "Visualizations"]
-    current_index = pages.index(st.session_state.page) if st.session_state.page in pages else 0
-    selection = st.radio("Select Page:", pages, index=current_index)
-    st.session_state.page = selection
-
     # Prefer Streamlit Secrets (or env) first
     api_key = get_openai_api_key()
     if api_key:
@@ -627,6 +621,12 @@ with st.sidebar:
         st.success("💪 API key verified")
     else:
         st.info("ℹ️ You can store your key in Streamlit Secrets as `OPENAI_API_KEY` (or under `openai.api_key`).")
+        
+    # --- Navigation ---
+    pages = ["Dashboard", "Data Analysis", "AI Assistant", "Visualizations"]
+    current_index = pages.index(st.session_state.page) if st.session_state.page in pages else 0
+    selection = st.radio("Select Page:", pages, index=current_index)
+    st.session_state.page = selection
 
     st.subheader("🗄️ Data Upload")
     uploaded_file = st.file_uploader(
